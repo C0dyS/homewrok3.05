@@ -50,29 +50,3 @@ class Musicians:
 
 
 
-countries = {
-    "United States": "Washington, D.C.",
-    "United Kingdom": "London",
-    "France": "Paris",
-    "Germany": "Berlin",
-    "Italy": "Rome",
-    "Spain": "Madrid",
-    "Canada": "Ottawa",
-    "Australia": "Canberra",
-    "Japan": "Tokyo",
-    "China": "Beijing"
-}
-
-class_test = Country(countries)
-
-print(class_test.show_countries())
-class_test - 'China'
-print(class_test.show_countries())
-class_test + ('a','b')
-print(class_test.show_countries())
-class_test.upload()
-
-print('__________________')
-class_test2 = Country()
-class_test2.download()
-print(class_test2.show_countries())
